@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <!--left section-->
+        <div class="left-section">
+            <img src="PIC .JPG" alt="profile-picture" class="profile-picture">
+            <section  id="objective"> 
+                <h3 style="color: whitesmoke;">Career Objective</h3>
+                <p style="text-align:justify;  hyphens:auto;">To secure an employment opportunity  with a progressive organization ,where i can utilize my professional skills and knowledge to the maximum add value in the growth of the organization</p>
+
+            </section>
+
+            <section id="Certification ">  
+                <h3 style="color: antiquewhite;"> Certification</h3>
+        <p> <b>Bsc:</b>Graduation in Telecommunication from Sir syed university of Engineering&Technology</p>
+        <p><b>Artificial Intelligence,Web3.o& Metaverse: </b> from Governor House Karachi (ongoing)</p>
+            </section>
+ 
+        </div>
+
+        <!--right section -->
+    <div  class="right-section">
+        <h1> Static Interactive Resume</h1>
+        <section id="personal-info"> 
+            <h3> Personal Information</h3>
+            <p> <b>Name:</b> Sumaira Murtaza </p>
+            <p> <b>phone:</b> 0306-1071004</p>
+            <p> <b> Email:</b><a href="mailto:sumipinkie15@gmail.com">sumipinkie15@gmail.com</a></p>
+            <p> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sumaira-irshad-telecomm-engineer-71638825a" target="_blank">
+          www.LinkedIn.com</a></p>
+        <section id="education"> 
+            <h3> Education</h3>
+            <p> <b> Graduation: </b> Bachelors in Telecommunication from SSUET</p>
+            <p><b> Inter:</b> from federal Board P.A.F</p>
+            <P><b> Matric:</b> from Pak Fazaia Degree College Faisal</P>
+            <section id="Skills">
+                <h3>  Skills </h3>
+                <ul>
+                    <li> HTML</li>
+                    <li>  CSS</li>
+                    <li>  javascript </li>
+                    <li>  MS Office</li>
+                    <li>  Communication Skills</li>
+                </ul>
+
+
+            </section>
+            <section id="work-experience">  
+                <h3> Work Experience</h3> 
+                <p> <b> PTCL:</b> Technical Services Provider</p>
+                <p>  <b> Teaching :</b> Home tutions experience </p>
+
+            </section>
+<button id="toggle-skills">
+                <b> Hide/Show Skills</b>
+            </button>
+ </section>            
+ </section>
+</div>
+</div>
+ <script > 
+    // Get references to the button and the skills section
+const toggleButton = document.getElementById('toggle-skills') 
+const skillsSection = document.getElementById('Skills') 
+
+// Function to toggle the visibility of the skills section
+toggleButton.addEventListener('click', () => {
+    if (skillsSection.style.display === 'none' || skillsSection.style.display === '') {
+        skillsSection.style.display = 'block'; // Show the skills section
+    } else {
+        skillsSection.style.display = 'none'; // Hide the skills section
+    }
+});
+
+
+</script>
+
+ </script>
+</body>
+<!-- <script src="script.js"></script> -->
+    
+</html>
